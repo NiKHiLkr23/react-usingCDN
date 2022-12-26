@@ -1,0 +1,50 @@
+
+  /* -------- body-------- */
+  .dark-mode {
+    background-color: #282D35;
+  }
+  
+  .light-mode {
+    background-color: white;
+  }
+  
+  
+  /* -------- navbar-------- */
+  nav.dark-mode {
+    background-color: #282D35;
+    color: #61DAFB;
+  }
+  
+  nav.light-mode {
+    background-color: white;
+    color: #61DAFB;
+  }
+  
+
+  
+  /* -------- mainContent-------- */
+  section.dark-mode {
+    background-image: url("react-icon-dark.png"); 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: #282D35;
+    color: white;  
+  }
+  
+  section.light-mode {
+    background-image: url("react-icon-light.png"); 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: white;
+  }
+
+  
+  /* -------- footer-------- */
+  footer.light-mode {
+    background-color: white;
+    color: #565454;
+  }
+  footer.dark-mode {
+    background-color: #282D35;
+    color: #736e6e;
+  }
